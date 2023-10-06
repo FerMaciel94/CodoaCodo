@@ -107,10 +107,12 @@ background-color: black;
 
 .oradores {
     display: flex;
-    justify-content: space-evenly;
-    padding: 5px;
-    margin: 20px;
+   align-items: center;
+   padding-left: 12rem;
+   padding-right: 12rem;
+   padding-bottom: 2rem;
 }
+
 
 .col-6  {
     padding: 0px;
@@ -145,8 +147,12 @@ margin-top: 1rem;
     padding: 1rem;
     margin-top: 1rem;
     border-radius: 4px;
-    border: solid black;
+    border: solid rgb(95, 94, 94) 1px;
     opacity: 0.6;
+}
+
+.x{
+    padding-left: 1rem;
 }
 
  .formulario form > div > div > input  {
@@ -154,7 +160,7 @@ margin-top: 1rem;
     width: 48%;
     border-radius: 4px;
     outline: none;
-    border: solid rgb(46, 46, 46) 1px;
+    border: solid rgb(95, 94, 94) 1px;
     opacity: 0.6;
     font-size: 1rem;
 }
@@ -173,8 +179,10 @@ margin-top: 1rem;
 
 footer {
     display: flex;
-    width: 100%;
+    width: auto;
+    height: 30%;
     margin-top: 1rem;
+    background-color: rgb(38, 72, 97);
 }
 footer ul {
     display: flex;
@@ -183,7 +191,7 @@ footer ul {
     gap: 4.2rem;
     align-items: center;
     justify-content: center;
-    background-color: rgb(38, 72, 97);
+  
     padding: 2rem;
 }
 footer ul li {
